@@ -1,0 +1,46 @@
+<div class="container-fluid">
+  <img src="assets/photos/1.1.jpg" />
+  <div class="promo-text">
+    <h2>KAMPANYALAR</h2>
+    <p>Hem cebinize, hem damak tadınıza hitap eden lezzetler!</p>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <ul class="nav" role="tablist">
+        <li>
+          <a
+            onclick="dataLayer.push({'event': 'uaevent','eventCategory': 'KAMPANYALAR','eventAction': 'RESTAURANT'});"
+            class=""
+            href="#type-2"
+            role="tab"
+            aria-controls="2"
+            aria-selected="true"
+            >RESTAURANT</a
+          >
+        </li>
+        <li>
+          <a
+            onclick="dataLayer.push({'event': 'uaevent','eventCategory': 'KAMPANYALAR','eventAction': 'PAKET SERVİS'});"
+            class="active"
+            data-toggle="tab"
+            href="#type-3"
+            role="tab"
+            aria-controls="3"
+            aria-selected="true"
+            >PAKET SERVİS</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 col-sm-12 col-md-6" *ngFor="let restaurant of restaurants">
+      <div class="restaurants">
+        <img [src]="restaurant.imgUrl" alt="Card image cap" />
+        <h2 class="campaign-text ">{{ restaurant.name }}</h2>
+      </div>
+    </div>
+  </div>
+</div>

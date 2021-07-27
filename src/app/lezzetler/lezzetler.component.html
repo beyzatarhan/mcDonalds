@@ -1,0 +1,32 @@
+<div class="container-fluid">
+  <img src="assets/photos/1.1.jpg" />
+  <div class="promo-text">
+      <h2>McDONALD&#39;S LEZZETLERİ</h2>
+      <p>Size özel hazırladığımız, ağzınıza layık efsane<br> McDonald’s lezzetleri ile tanışmaya hazır mısınız?</p>
+  </div>
+</div>
+
+<div class="container">
+<div class="row">
+
+      <div class="col-12 col-lg-4" *ngFor="let lezzet of lezzetler">
+          <div class="lezzetler" >
+              <img [src]="lezzet.imgUrl" alt="Card image cap"/>
+              <h2>{{lezzet.name}}</h2>
+              <a href="/" class="cta-button cta-small">Daha Fazla Bilgi</a> 
+          </div>
+      </div>
+</div>
+<div class="row">
+  <div class="col-12" style="margin-bottom:20px;">
+    <a style="font-family:LovinSans-Medium;" href="assets/photos/besin.pdf">
+          <img src="assets/photos/00.jpg" style="width:115%" />
+    </a>
+  </div>
+<div class="col-12" style="margin-bottom:20px;">
+  <a style="font-family:LovinSans-Medium;" href="assets/photos/alerjen.pdf">
+          <img src="assets/photos/01.jpg" style="width:115%" />
+  </a>
+  </div>
+</div>
+</div>

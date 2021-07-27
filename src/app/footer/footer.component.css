@@ -1,0 +1,142 @@
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+footer .footer-top {
+    background: #282a2c;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li {
+    float: none;
+    font-size: 16px;
+    color: #e9e9e9;
+    font-family: LovinSans-Medium;
+    text-align: center; 
+    display: inline;
+    display: block;
+}
+p {
+    text-align: center;
+    font-size: 13px;
+    color: #e9e9e9;
+    font-family: LovinSans-Regular;   
+}
+#footer-logo {
+    margin: 0 auto 20px;
+    width: 118px;
+    height: 99px;
+    text-indent: -9999px;
+    background: url(src/assets/photos/footer-logo.png) no-repeat;
+    margin-left: 50px;
+}
+.footer-phone {
+    float: right;
+    margin: 20px auto 0;
+    color: #fcca31;
+    background: url(src/assets/photos/footer-phone.png) no-repeat;
+    padding-right: 60px;
+    font-size: 39px;
+    padding-left: 50px;
+    font-family: LovinSans-Black;
+}
+.col-12 {
+    max-width: 100%;
+    padding-right: 90px;
+    padding-left: 90px;
+}
+footer .footer-bottom {
+    background: #222425;
+    padding-top: 20px;
+    padding-bottom: 115px;
+    font-family: LovinSans-Regular;
+}
+
+.fs-icon {
+    font-size: 15px;
+    color: #9a9a9a;
+    float: left;
+    background: url(src/assets/photos/footer-social.png) no-repeat;
+    padding-left: 60px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    margin-left:30px;
+}
+footer .footer-bottom .app-text {
+    float: left;
+    font-size: 15px;
+    color: #9a9a9a;
+    line-height: 40px;
+    padding-left: 60px;
+    margin-bottom: 20px;
+    background: url(src/assets/photos/app-download.png) no-repeat;
+}
+.fs-media {
+    display:inline-block
+}
+.fs-media li {
+    float:left;
+    margin-bottom: 10px;
+    display: inline;
+    
+}
+.fs-tw {
+    background-position: -38px 0;
+}
+.fs-in {
+    background-position: -85px 0;
+}
+.fs-yt {
+    background-position: -134px 0;
+}
+.fs-li {
+    background-position: -181px 0;
+}
+.fs-pn {
+    background-position: -229px 0;
+}
+.fs-gp {
+    background-position: -276px 0;
+}
+
+.fs-media a {
+    width: 32px;
+    display: block;
+    background-image: url(src/assets/photos/footer-icons.png);
+    background-repeat: no-repeat;
+    margin: 0 10px;
+    filter: grayscale(1);
+    float: right;
+}
+.apps a.app-store {
+    background: url(src/assets/photos/app-store.png) no-repeat;
+}
+.apps a.google-play {
+    background: url(src/assets/photos/google-play.png) no-repeat;
+}
+.apps a {
+    width: 150px;
+    height: 48px;
+    display: block;
+    margin: 0 2.5px;
+    float: left;
+}
+

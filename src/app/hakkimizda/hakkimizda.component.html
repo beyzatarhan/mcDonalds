@@ -1,0 +1,39 @@
+<div class="promo-item">
+  <div class="promo-bg">
+    <img src="assets/photos/hakkimizda.jpg" />
+  </div>
+  <div class="promo-text">
+    <h2>McDonald&#39;s Hakkında | McDonald&#39;s</h2>
+    <p>2017 Brand Z Raporu’na göre dünyanın en değerli sekizinci markası olan<br/>
+      McDonald’s olarak, dünyanın dört bir yanında yer alan 34 bini aşkın restoran<br/>
+      ve 1,6 milyonu geçen çalışanımızla, günde ortalama 58 milyon müşterimizi<br />
+      mutlu edebilmek için çalışıyoruz. Türkiye'de de McDonald’s, bugün yaklaşık 260 restoranı ve <br />
+      6000 civarında çalışanı ile yılda 100 milyon kişiye hizmet vermektedir.
+    </p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-12" *ngFor="let hakkimiz of hakkimizda">
+      <div class="aboutus-box">
+        <img [src]="hakkimiz.img" alt="Card image cap"/>
+        <div class="aboutus-info">
+          <h2>{{ hakkimiz.title }}</h2>
+          <p>{{ hakkimiz.description }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12  col-md-6" *ngFor="let hakkimiz2 of hakkimizda2">
+      <div class="aboutus-box">
+        <img [src]="hakkimiz2.img" alt="Card image cap"/>
+        <div class="aboutus-info">
+          <h2>{{ hakkimiz2.title }}</h2>
+          <p>{{ hakkimiz2.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

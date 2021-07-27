@@ -1,0 +1,62 @@
+.promo-bg img{
+    width: 100%;
+    display: inline-block;
+    vertical-align:middle;
+}
+.promo-item{
+    position: relative;
+}
+.promo-text{
+    transform: translateY(-50%);
+    width: 100%;
+    position: absolute;
+    top: 50%;
+}
+.promo-text h2 {
+    font-size: 74px;
+    line-height: 50px;
+    color: #fff;
+    text-align: center;
+}
+.promo-text p {
+    font-size: 24px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+}
+.aboutus-box {
+    position: relative;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.aboutus-box img {
+    width:100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.aboutus-box .aboutus-info {
+    position: absolute;
+    top: 140px;
+    width: 100%;
+    padding: 0 30px;
+}
+.aboutus-box h2 {
+    font-size: 33px;
+    color: #fff;
+}
+.aboutus-box p {
+    font-size: 22px;
+    color: #fff;
+    margin: 20px 0 70px;
+}
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
